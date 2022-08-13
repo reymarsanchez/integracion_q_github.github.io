@@ -1,0 +1,25 @@
+---
+title: "Test1"
+author: "rsanchez"
+format: html
+editor: visual
+---
+
+## Quarto Gael Sanchez
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+library(ggplot2)
+```
+
+You can add options to executable code like this
+
+```{r}
+head(mtcars)
+```
+
+```{r}
+ggplot(data = mtcars, aes(x = gear)) + geom_bar()
+
+```
